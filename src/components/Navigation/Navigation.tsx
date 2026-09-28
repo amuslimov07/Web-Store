@@ -23,12 +23,5 @@ export default function Navigation() {
         );
       })}
     </nav>
-    // <div className="flex flex-row gap-[32px] ">
-    //   <button className="navbar__btn cursor-pointer">New</button>
-    //   <button className="navbar__btn cursor-pointer">Men</button>
-    //   <button className="navbar__btn cursor-pointer">Women</button>
-    //   <button className="navbar__btn cursor-pointer">Accessories</button>
-    //   <button className="navbar__btn cursor-pointer">Sale</button>
-    // </div>
   );
 }

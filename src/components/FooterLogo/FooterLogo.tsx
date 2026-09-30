@@ -4,7 +4,7 @@ export default function FooterLogo() {
   return (
     <div className="flex flex-col gap-4 col-span-2">
       <Logo />
-      <p className="text-[#B8B8B2]">
+      <p className="text-text-inverse-secondary">
         Considered essentials for modern life. Designed to be worn, used and
         kept.
       </p>

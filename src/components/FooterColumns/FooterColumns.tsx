@@ -44,7 +44,7 @@ export default function FooterColumns() {
         <ul>
           {column.links.map((link) => {
             return (
-              <li key={link.label} className="text-[#B8B8B2]">
+              <li key={link.label} className="text-text-inverse-secondary">
                 <Link href={link.href}>{link.label}</Link>
               </li>
             );

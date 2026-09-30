@@ -7,7 +7,7 @@ const footerLinks = [
 ];
 export default function FooterBottom() {
   return (
-    <div className="flex justify-between text-[#8E8E89] text-xs">
+    <div className="flex justify-between text-text-inverse-muted text-xs">
       <p>© 2026 Web-Store</p>
       <div className="flex gap-2">
         <nav className="flex gap-2">

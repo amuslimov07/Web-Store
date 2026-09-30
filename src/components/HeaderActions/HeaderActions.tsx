@@ -16,7 +16,7 @@ export default function HeaderActions() {
   return (
     <div className="flex items-center gap-6">
       <button className=" flex items-center gap-2" aria-label="Search">
-        <Icon className="text-black h-5 w-5" name="search"></Icon>
+        <Icon className="text-text-primary h-5 w-5" name="search"></Icon>
         Search
       </button>
 
@@ -28,7 +28,10 @@ export default function HeaderActions() {
             className="flex items-center gap-2"
             aria-label={action.label}
           >
-            <Icon className="text-black h-5 w-5" name={action.icon}></Icon>
+            <Icon
+              className="text-text-primary h-5 w-5"
+              name={action.icon}
+            ></Icon>
             {action.count !== undefined && <span>{action.count}</span>}
           </Link>
         );

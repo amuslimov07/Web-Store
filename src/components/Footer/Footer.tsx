@@ -4,13 +4,13 @@ import FooterBottom from "@/components/FooterBottom/FooterBottom";
 
 export default function Footer() {
   return (
-    <footer className="p-8 bg-[#222220] text-white  ">
+    <footer className="p-8 bg-surface-inverse text-text-inverse  ">
       <div className="mx-auto max-w-6xl ">
         <div className="grid grid-cols-6 gap-12">
           <FooterLogo />
           <FooterColumns />
         </div>
-        <hr className="w-full border-[#42423F] my-16" />
+        <hr className="w-full border-border-inverse my-16" />
         <FooterBottom />
       </div>
     </footer>

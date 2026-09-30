@@ -16,7 +16,7 @@ export default function Navigation() {
           <Link
             key={item.href}
             href={item.href}
-            className={`cursor-pointer transition-all duration-200 ${isActive ? "-translate-y-1 border-b-2 border-[#9A3E29] font-bold" : ""}`}
+            className={`cursor-pointer transition-all duration-200 ${isActive ? "-translate-y-1 border-b-2 border-accent font-bold" : ""}`}
           >
             {item.label}
           </Link>

@@ -1,0 +1,30 @@
+.button {
+  font-weight: 500;
+  padding: 1rem 1.5rem;
+  letter-spacing: 0.05em;
+
+  border: 2px solid transparent;
+  background: var(--color-surface-inverse);
+  color: var(--color-text-inverse);
+
+  transition: 200ms ease-out;
+
+  cursor: pointer;
+}
+.button[aria-pressed="true"] {
+  border-color: var(--color-border-inverse);
+  background: var(--color-background);
+  color: var(--color-text-primary);
+}
+.button:hover {
+  transform: scale(1.05);
+}
+
+.button:disabled {
+  opacity: 0.38;
+  cursor: not-allowed;
+}
+
+.button:disabled:hover {
+  transform: none;
+}

@@ -1,0 +1,45 @@
+.wrapper {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  cursor: pointer;
+  font-size: 1rem;
+}
+
+.checkbox {
+  appearance: none;
+  width: 20px;
+  height: 20px;
+  flex-shrink: 0;
+  margin: 0;
+
+  border: 1px solid var(--color-border);
+  border-radius: 3px;
+  background-color: var(--color-background);
+
+  cursor: pointer;
+  transition:
+    background-color 0.15s ease,
+    border-color 0.15s ease;
+}
+.checkbox:checked {
+  background-color: var(--color-text-primary);
+  border-color: var(--color-text-primary);
+}
+
+.checkbox:disabled {
+  opacity: 0.8;
+  cursor: not-allowed;
+}
+
+.wrapper:has(.checkbox:disabled) {
+  cursor: not-allowed;
+}
+.wrapper:has(.checkbox:disabled) span {
+  opacity: 0.5;
+}
+
+.checkbox:focus-visible {
+  outline: 2px solid var(--color-text-primary);
+  outline-offset: 3px;
+}

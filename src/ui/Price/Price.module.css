@@ -1,0 +1,18 @@
+.wrapper {
+  display: inline-flex;
+  align-items: flex-start;
+}
+
+.price {
+  color: var(--color-text-primary);
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 1.2;
+}
+
+.oldPrice {
+  color: var(--color-text-secondary);
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 1.2;
+}

@@ -1,5 +1,5 @@
-import { Icon } from "@/components/Icon/Icon";
-import type { IconProps } from "@/components/Icon/Icon";
+import { Icon } from "@/UI/Icon/Icon";
+import type { IconProps } from "@/UI/Icon/Icon";
 import Link from "next/link";
 type Action = {
   label: string;

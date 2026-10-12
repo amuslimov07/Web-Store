@@ -10,15 +10,16 @@ const icons = {
   user: UserIcon,
 };
 
-type IconName = keyof typeof icons;
+export type IconName = keyof typeof icons;
 
 export interface IconProps {
   name: IconName;
   className?: string;
+  size?: number;
 }
 
-export function Icon({ name, className }: IconProps) {
+export function Icon({ name, className, size = 24 }: IconProps) {
   const IconComponent = icons[name];
 
-  return <IconComponent className={className} />;
+  return <IconComponent className={className} width={size} height={size} />;
 }

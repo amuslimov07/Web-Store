@@ -19,6 +19,7 @@
 
   /* Brand */
   --color-accent: #9a3e29;
+  --color-success: #2e6a4a;
 }
 
 @theme {
@@ -36,4 +37,5 @@
   --color-border-inverse: var(--color-border-inverse);
 
   --color-accent: var(--color-accent);
+  --color-success: var(--color-success);
 }

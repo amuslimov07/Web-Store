@@ -1,0 +1,33 @@
+.wrapper {
+  display: inline-flex;
+  width: fit-content;
+  padding: 4px 8px;
+  border-radius: 4px;
+}
+
+.badge {
+  display: inline-block;
+  width: fit-content;
+  font-size: 12px;
+  font-weight: 600;
+  line-height: 1.2;
+}
+
+.default {
+  color: var(--color-text-primary);
+  background-color: color-mix(
+    in srgb,
+    var(--color-text-primary) 10%,
+    transparent
+  );
+}
+
+.success {
+  color: var(--color-success);
+  background-color: color-mix(in srgb, var(--color-success) 10%, transparent);
+}
+
+.accent {
+  color: var(--color-accent);
+  background-color: color-mix(in srgb, var(--color-accent) 10%, transparent);
+}

@@ -1,0 +1,21 @@
+.wrapper {
+  position: relative;
+  display: inline-block;
+  font-size: 24px;
+  line-height: 1;
+  letter-spacing: 2px;
+}
+
+.starsBackground {
+  color: transparent;
+  -webkit-text-stroke: 1px var(--color-text-primary);
+  white-space: nowrap;
+}
+
+.starsFill {
+  position: absolute;
+  inset: 0 auto 0 0;
+  overflow: hidden;
+  color: var(--color-text-primary);
+  white-space: nowrap;
+}

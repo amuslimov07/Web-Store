@@ -1,0 +1,24 @@
+.wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 15px;
+  box-shadow: 0 0 0 1px rgba(34, 34, 32, 0.2);
+}
+
+.selectorButton {
+  padding: 12px 15px;
+  border: none;
+  background: transparent;
+  color: inherit;
+  font: inherit;
+  cursor: pointer;
+}
+
+.selectorButton:disabled {
+  cursor: default;
+}
+
+.disabled {
+  opacity: 0.4;
+}

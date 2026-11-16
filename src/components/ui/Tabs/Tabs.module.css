@@ -12,4 +12,6 @@
 }
 .active {
   border-bottom: 2px solid var(--color-accent);
+  font-weight: bold;
+  transition-duration: 0.1s;
 }
